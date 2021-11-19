@@ -1,0 +1,86 @@
+/*
+ * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * https://css-tricks.com/international-box-sizing-awareness-day/
+ * Do not modify these two selectors, please
+ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*
+ * Global layout stuff
+ */
+
+body {
+  color: #545149;
+  background-color: #d1d3ee;
+  font-size: 24px;
+  background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
+  
+}
+
+#div {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-content: center;
+  align-items: center;
+  height: 900px;
+
+}
+
+
+@media screen and (min-width: 1024px) {
+  nav {
+    flex-direction: fixed;
+    background-color: #8d7bbe
+  }
+
+  body {
+    display:flex;
+/*     flex-direction: row; */
+    justify-content: center;
+    align-items: baseline;
+    max-width: 90%;
+  }
+
+  header {
+    display: flex;
+    float: left;
+    min-width: 40%;
+    max-width: 40%;
+    max-height: 40%;
+  }
+  main {
+    display: flex;
+    flex-direction:column;
+    float: right;
+    min-width: 50vw;
+    max-width: 50vw;
+    max-height: 50vh;
+    
+  }
+  
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  nav {
+    flex-direction: fixed;
+    background-color: #d3caeb
+  }
+  
+}
+
+/*
+ * Additional CSS can be defined below or in other CSS files, as per instructions
+ */
