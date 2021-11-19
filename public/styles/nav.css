@@ -1,9 +1,9 @@
 nav {
   display: flex;
-  height: 120px;
+  height: 20vh;
   position: static;
   background-color: #d5cdee;
-  background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
+  background-image: url("http://www.transparenttextures.com/patterns/gplay.png");
   color: #FFFFFF;
   width: 100%;
   padding-right: 1em;
@@ -13,15 +13,19 @@ nav {
   top: 0;
   left: 0;
   z-index: 10;
+  transition: top 0.3s;
 }
 
 .tweeter_title {
   font-family: "Bungee", cursive;
+  text-shadow: 0 0 11px black;
 }
+
 
 .right_side_title {
   display: flex;
   font-family: "Source Sans Pro", sans-serif;
+  text-shadow: 0 0 11px black;
   font-size: 20px;
   flex-direction: column;
   justify-content: center;
@@ -31,4 +35,6 @@ nav {
 
 .down-arrow {
   animation: a9 0.5s infinite linear alternate;
+  text-shadow: 0 0 11px white;
+  animation-direction: alternate;
 }
