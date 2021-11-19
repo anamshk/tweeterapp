@@ -1,19 +1,20 @@
 .new-tweet {
   display: flex;
   flex-direction: column;
-  height: 300px;
+  height: 20vh;
   font-family: "Source Sans Pro", sans-serif;
+  margin-bottom:100px;
 }
 
 #tweet-text {
-  width: 100%;
   max-width: 100%;
   min-width: 100%;
   max-height: 30%;
   min-height: 30%;
-  background-color: #d5cdee;
+  background-color: #ced1eb;
   border: none;
   border-bottom: 3px solid #545149;
+  resize: none;
 }
 
 .alert {
@@ -21,7 +22,8 @@
   border: 3px solid crimson;
   width: 100%;
   color: crimson;
-  justify-content: center;
+  font-family: "Bungee", cursive;
+  line-height: 25px;
 }
 
 .max-length {
@@ -30,14 +32,14 @@
   border: none;
   outline: 2px solid crimson;
   color: crimson;
-  font-size: 20px;
   height: 30px;
   max-height: 32px;
   width: 100%;
   max-width: 100%;
   margin-top: 20px;
   margin-bottom: 10px;
-  line-height: 20px;
+  font-size: 15px;
+  justify-content: center;
 }
 
 .no-text {
@@ -45,15 +47,15 @@
   background-color: #f4f1ec;
   border: none;
   outline: 2px solid crimson;
-  text-emphasis-color: crimson;
-  font-size: 20px;
+  font-family: "Bungee", cursive;
   height: 30px;
   max-height: 32px;
   width: 100%;
   max-width: 100%;
   margin-top: 20px;
   margin-bottom: 10px;
-  line-height: 20px;
+  font-size: 15px;
+  align-items: center;
 }
 
 .visual-buttons {
