@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  margin-top: 90px;
+  height: 400px;
+  position: relative;
+  max-width: 100%;
+  padding-top: 3em;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #FFFFFF;
+  background-color: #d5cdee;
+  background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
+}
+
+.avatar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
